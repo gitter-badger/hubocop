@@ -1,0 +1,2 @@
+# hubocop
+A hubot cop
