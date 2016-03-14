@@ -4,5 +4,6 @@ set -e
 
 npm install
 export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
+export HUBOT_OWM_APIKEY=c7f0af56c0f7e243f784f7de92ee7cfd
 
 exec node_modules/.bin/hubot --name "hubocop" "$@"
